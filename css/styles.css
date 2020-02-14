@@ -6,7 +6,7 @@ h1 {
     padding-top: 100px;
 }
 body {
-    background-image: url(https://image.shutterstock.com/image-photo/lonely-tree-mist-grunge-background-260nw-87172531.jpg); background-size: cover;
+    background-image: url(images/card.jpg); background-size: cover;
     font-weight: bolder;
     font-size: large;
     margin-left: 60px;
@@ -32,6 +32,6 @@ p {
 * {
     font-size: 20px;
     margin-left: 60px;
-    color: gainsboro;
+    color: black;
 }
 
