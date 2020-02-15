@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <meta charset="utf-8">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <link rel="icon" type="ghana.jpeg" href="css/images/ghana.jpeg">
     <title>Akan naming</title>
@@ -60,12 +61,13 @@
             </div>
         </div>
     </div>
-    <p><label Day of Birth>Day</label>
-    <input type="number" min="1" max="31" title="Day of Birth" /> 
-    <label Month>Month</label> 
-    <input type="month" title="month" />
-    <label Year>Year</label>
-    <input type="number" min="1" max="2020" title="year" /></p>
-    <p><label Gender>Gender</label>
-    <input type="gender" title="Gender" /></p>
+    <form>
+    <label Day of Birth>Day</label><input type="number" min="1" max="31" title="Day of Birth" id="siku"/><br> 
+    <label Month>Month</label> <input type="month" title="month" id="mwezi"/><br>
+    <label Year>Year</label><input type="number" min="1" max="2020" title="year" id="mwaka"/><br>
+    <input type="radio" id="male" name="gender" value="male"/><label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="female"/><label for="female">female</label><br>
+    <input type="button" value="submit" onclick="akanName()" /><br>
+    </form>
+    <p id="output"> Your output is</p>
 </body>
