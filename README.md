@@ -4,11 +4,11 @@
 ## Description
 This website is able to identify the Ghanaian name for any male or female according to the date they were born.
 ## Setup/Installation Requirements
-* Create a html file, css file,javascript and download bootstrap
-* Link all the other files in the html
-* Create a function that is able to calculate the name of a certain person according to the date they were born using javascript
-* Push the changes made to github after creating a remote storage
-* An online link would be created
+* Create a html file, css file,javascript and download bootstrap.
+* Link all the other files in the html.
+* Create a function that is able to calculate the name of a certain person according to the date they were born using javascript.
+* Push the changes made to github after creating a remote storage.
+* An online link would be created.
 ## Known Bugs
 there are no known bugs
 ## Technologies Used
