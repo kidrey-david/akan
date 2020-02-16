@@ -21,7 +21,7 @@ function ghanaName(){
         alert("Please enter a valid day!");
     }
     else if (male.checked == false && female.checked == false){
-        alert("Please your gender!");
+        alert("Please enter your gender!");
     }
     else if (male.checked == true){
         result.innerHTML = "Your Ghanaian name is " + maleNames[birthDay] +  " since you were born on a " + days[birthDay];
