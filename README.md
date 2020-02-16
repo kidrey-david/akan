@@ -10,7 +10,7 @@ This website is able to identify the Ghanaian name for any male or female accord
 * Push the changes made to github after creating a remote storage.
 * An online link would be created.
 ## Known Bugs
-there are no known bugs
+There are no known bugs
 ## Technologies Used
 Some of the languages used are HTML, CSS and Javascript. Bootsrap was also used.
 ## Support and contact details
