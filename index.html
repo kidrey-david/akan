@@ -66,15 +66,15 @@
             <p id="result"></p>
         </div>
         <div>
-            <input type="number" id="year" placeholder="Year" required>
+            <input type="number" id="year" max="2020" min="1" placeholder="Year" required>
         </div>
         <div>
-            <input type="number" id="month" placeholder="Month" required >
+            <input type="number" id="month" max="12" min="1" placeholder="Month" required >
         </div>
         <div>
-            <input type="number" id="day" placeholder="Day" required >
+            <input type="number" max="31" min="1" id="day" placeholder="Day" required >
         </div>
-        <div id="gend"  class="checkbox">
+        <div id="gender"  class="checkbox">
             Male<input type="radio" value="male" id="male" name="gender">
             Female<input type="radio" value="female" id="female" name="gender">
         </div>

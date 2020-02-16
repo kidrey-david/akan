@@ -12,16 +12,16 @@ function ghanaName(){
     var femaleNames = ["Akosua", "Adwoa", "Abenaa", "AKua", "Yaa", "Afua", "Ama"];
 
     if (year == "" || year.length < 4 || year.length > 4){
-        alert("Hey you need to enter a valid year!");
+        alert("Please enter a valid year!");
     }
     else if (month < 0 || month > 12 ){
-        alert("Hey you need to enter a valid month!");
+        alert("Please enter a valid month!");
     }
     else if( dayOfMonth < 0 || dayOfMonth >31) {
-        alert("Hey you need to re-enter a valid day!");
+        alert("Please enter a valid day!");
     }
     else if (male.checked == false && female.checked == false){
-        alert("You need to specify your gender!");
+        alert("Please your gender!");
     }
     else if (male.checked == true){
         result.innerHTML = "Your Ghanaian name is " + maleNames[birthDay] +  " since you were born on a " + days[birthDay];
@@ -30,6 +30,6 @@ function ghanaName(){
         result.innerHTML = "Your Ghanaian name is " + femaleNames[birthDay] +  " since you were born on a " + days[birthDay];
     }
     else{
-        alert("Come on Akan, just run!")
+        alert("Error")
     }
 }
