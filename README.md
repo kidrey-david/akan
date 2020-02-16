@@ -1,4 +1,4 @@
-# Akan Name Syst
+# Akan Name Syste
 #### The online link is  https://kidrey-david.github.io/akan/., 14/02/2020
 #### By **David Kiriago**
 ## Description
