@@ -8,7 +8,7 @@ This website is able to identify the Ghanaian name for any male or female accord
 * Link all the other files in the html
 * Create a function that is able to calculate the name of a certain person according to the date they were born using javascript
 * Push the changes made to github after creating a remote storage
-* an online link would be created
+* An online link would be created
 ## Known Bugs
 there are no known bugs
 ## Technologies Used
